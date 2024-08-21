@@ -10,8 +10,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["Montserrat", "sans-serif"],
-        serif: ["YourSerifFont", "serif"],
+        sans: ["Montserrat", "system-ui", "sans-serif"],
+        serif: ["YourSerifFont", "Georgia", "serif"],
       },
     },
   },
