@@ -3,3 +3,7 @@
   min-height: 100vh;
   color: white;
 }
+
+.typed-cursor {
+  @apply text-primary-green;
+}
