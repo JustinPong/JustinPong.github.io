@@ -11,7 +11,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ["Montserrat", "system-ui", "sans-serif"],
-        serif: ["YourSerifFont", "Georgia", "serif"],
+        serif: ["Titillium Web", "Georgia", "serif"],
       },
     },
   },
