@@ -3,7 +3,7 @@ import React from "react";
 const AppHeader = () => {
   return (
     <header className="bg-[#060606]">
-      <nav className="h-[80px] flex justify-between items-center">
+      <div className="h-[80px] flex justify-between items-center">
         <div className="container mx-auto px-5 flex justify-between items-center">
           <a
             href="/"
@@ -17,9 +17,9 @@ const AppHeader = () => {
             </span>
           </a>
 
-          <div>Menus</div>
+          <nav>Menus</nav>
         </div>
-      </nav>
+      </div>
     </header>
   );
 };
