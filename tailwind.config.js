@@ -4,14 +4,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: {
-          green: "#06D99E",
-          dark: "#0F1010",
-        },
+        primary: "#06D99E",
+        dark: "#0F1010",
+        white: "#e0def4",
       },
       fontFamily: {
         sans: ["Montserrat", "system-ui", "sans-serif"],
         serif: ["Titillium Web", "Georgia", "serif"],
+        mono: ["Fira Code"],
       },
     },
   },
