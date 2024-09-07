@@ -5,7 +5,7 @@ import Home from "./components/pages/Home";
 
 function App() {
   return (
-    <div className="App bg-[#080808]">
+    <div className="App bg-dark">
       <Router>
         <AppHeader />
         <Routes>
