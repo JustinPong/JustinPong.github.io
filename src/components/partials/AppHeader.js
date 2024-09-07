@@ -1,10 +1,11 @@
 import React from "react";
+import NavBar from "./NavBar";
 
 const AppHeader = () => {
   return (
-    <header className="bg-[#060606]">
+    <header className="bg-dark">
       <div className="h-[80px] flex justify-between items-center">
-        <div className="px-14 w-full flex justify-between items-center">
+        <div className="px-6 lg:px-14 w-full flex justify-between items-center">
           <a
             href="/"
             className="flex gap-1 w-auto transform transition-transform duration-300 hover:scale-105"
@@ -16,8 +17,7 @@ const AppHeader = () => {
               Pong
             </span>
           </a>
-
-          <nav>Menus</nav>
+          <NavBar />
         </div>
       </div>
     </header>
