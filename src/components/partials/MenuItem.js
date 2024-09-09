@@ -1,10 +1,13 @@
 import React from "react";
 
-const MenuItem = ({ name }) => {
+const MenuItem = ({ name, link, index }) => {
   return (
-    <div>
-      <div className="font-mono">{name}</div>
-    </div>
+    <a href={`${link}`} className=" font-mono group">
+      <span className="text-xs mr-1 text-primary">0{index}.</span>
+      <span className="text-sm group-hover:text-primary duration-300">
+        {name}
+      </span>
+    </a>
   );
 };
 

@@ -6,29 +6,29 @@ const NavBar = () => {
     {
       id: 1,
       name: "Home",
-      url: "/",
+      link: "#home",
     },
     {
       id: 2,
       name: "About",
-      url: "/about",
+      link: "#about",
     },
     {
       id: 3,
       name: "Services",
-      url: "/services",
+      link: "#services",
     },
     {
       id: 4,
       name: "Contact",
-      url: "/contact",
+      link: "#contact",
     },
   ];
 
   return (
-    <nav className="flex">
+    <nav className="flex gap-6">
       {menuItems.map((item) => (
-        <MenuItem key={item.id} name={item.name} url={item.url} />
+        <MenuItem index={item.id} name={item.name} link={item.link} />
       ))}
     </nav>
   );
