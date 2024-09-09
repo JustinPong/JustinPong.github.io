@@ -2,7 +2,7 @@ import React from "react";
 import Typed from "typed.js";
 import PrimaryButton from "../button/PrimaryButton";
 
-const Home = () => {
+const LandingSection = () => {
   const el = React.useRef(null);
 
   const initTyped = () => {
@@ -65,7 +65,7 @@ const Home = () => {
             <h3 className="text-animation text-xl lg:text-2xl xl:text-4xl font-bold mt-4 mb-6 xl:mb-10 font-sans">
               I'm a <span className="text-primary" ref={el} />
             </h3>
-            <p className="text-base xl:text-lg max-w-[560px] text-[#8892b0]">
+            <p className="text-base xl:text-lg max-w-[560px] text-white">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do,
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim, ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -82,4 +82,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default LandingSection;
