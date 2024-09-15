@@ -7,7 +7,7 @@ const PrimaryButton = ({ className, text = "hi" }) => {
       data-component="primary-button"
       className={`${baseClasses} ${className}`}
     >
-      <div className="bg-dark text-primary border-primary border transform group-hover:translate-x-[-5px] group-hover:translate-y-[-5px] group-hover:shadow-[4px_4px_0_0_var(--primary)] px-6 py-3 rounded-md transition-all duration-250 ease-[cubic-bezier(0.645,0.045,0.355,1)]">
+      <div className="bg-dark text-primary font-mono border-primary border transform group-hover:translate-x-[-5px] group-hover:translate-y-[-5px] group-hover:shadow-[4px_4px_0_0_var(--primary)] px-6 py-3 rounded-md transition-all duration-250 ease-[cubic-bezier(0.645,0.045,0.355,1)]">
         {text}
       </div>
     </button>
