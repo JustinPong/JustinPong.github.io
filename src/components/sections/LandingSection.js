@@ -56,15 +56,15 @@ const LandingSection = () => {
       data-component="home-page"
       id="home"
     >
-      <div className="container m-auto px-5 lg:px-32">
+      <div className="container m-auto px-5 md:px-16 lg:px-32">
         <div className="flex flex-col-reverse lg:flex-row gap-10 2xl:gap-36">
-          <div className="w-full lg:max-w-[1000px] m-auto">
+          <div className="w-full md:max-w-[1000px] m-auto">
             <div class="text-primary font-mono">Hi, my name is</div>
             {/* text-4xl xl:text-7xl */}
             <h1 className="big-heading font-bold mt-4 xl:mt-6 leading-none font-sans text-white">
               Justin Pong.
             </h1>
-            <h3 className="text-animation text-xl lg:text-2xl xl:text-4xl font-bold mt-4 mb-6 xl:mb-10 font-sans">
+            <h3 className="text-animation text-xl lg:text-4xl font-bold mt-4 mb-6 xl:mb-10 font-sans">
               I'm a <span className="text-primary" ref={el} />
             </h3>
             <p className="text-base xl:text-lg max-w-[560px] text-white">
