@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 
 const AppHeader = () => {
   return (
-    <header className="bg-dark">
+    <header className="bg-dark fixed top-0 left-0 w-full">
       <div className="h-[80px] flex justify-between items-center">
         <div className="px-6 lg:px-14 w-full flex justify-between items-center">
           <a
