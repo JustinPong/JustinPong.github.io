@@ -20,7 +20,12 @@ const NavBar = () => {
     <div>
       <nav className={`hidden md:flex gap-6 ${menuOpen ? "block" : "hidden"}`}>
         {menuItems.map((item) => (
-          <MenuItem key={item.id} name={item.name} link={item.link} />
+          <MenuItem
+            key={item.id}
+            index={item.id}
+            name={item.name}
+            link={item.link}
+          />
         ))}
       </nav>
 
