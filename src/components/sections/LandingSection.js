@@ -64,7 +64,7 @@ const LandingSection = () => {
             <h1 className="big-heading font-bold mt-4 xl:mt-6 leading-none font-sans text-white">
               Justin Pong.
             </h1>
-            <h3 className="text-animation text-xl lg:text-4xl font-bold mt-4 mb-6 xl:mb-10 font-sans">
+            <h3 className="text-xl lg:text-4xl font-bold mt-4 mb-6 xl:mb-10 font-sans">
               I'm a <span className="text-primary" ref={el} />
             </h3>
             <p className="text-base xl:text-lg max-w-[560px] text-white">
