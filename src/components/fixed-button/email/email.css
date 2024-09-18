@@ -1,0 +1,43 @@
+.email-container {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: auto;
+  right: 40px;
+  z-index: 10;
+  display: none;
+
+  @screen md {
+    display: block;
+  }
+}
+
+.email-link-wrapper {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.email-link {
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  transition: 300ms;
+}
+
+.email-link:hover {
+  color: var(--primary);
+  transform: translateY(-3px);
+}
+
+.divider-line {
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: var(--white);
+}
