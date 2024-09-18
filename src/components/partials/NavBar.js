@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import MenuItem from "./MenuItem";
+import MobileMenu from "./MobileMenu";
 import "./NavBar.css";
 
 const NavBar = () => {
@@ -37,7 +38,7 @@ const NavBar = () => {
         <div className="bar2"></div>
         <div className="bar3"></div>
       </div>
-      <div className={`mobile-menu ${menuOpen ? "active" : ""}`}>hi</div>
+      <MobileMenu isActive={menuOpen} />
     </div>
   );
 };

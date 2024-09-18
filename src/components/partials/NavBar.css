@@ -1,26 +1,26 @@
 .hamburger-menu {
-  display: hidden;
+  display: inline-block;
   cursor: pointer;
 
-  @include md {
-    display: inline-block;
+  @screen md {
+    display: none;
   }
 }
 
 .bar1,
 .bar2,
 .bar3 {
-  width: 30px;
-  height: 5px;
+  width: 24px; /* Adjusted width */
+  height: 4px; /* Adjusted height */
   background-color: #e0def4;
-  margin: 6px 0;
+  margin: 5px 0; /* Adjusted margin */
   transition: 0.4s;
   border-radius: 10px;
 }
 
 /* Rotate first bar */
 .change .bar1 {
-  transform: translate(0, 11px) rotate(-45deg);
+  transform: translate(0, 9px) rotate(-45deg);
 }
 
 /* Fade out the second bar */
@@ -30,30 +30,5 @@
 
 /* Rotate last bar */
 .change .bar3 {
-  transform: translate(0, -11px) rotate(45deg);
-}
-
-.mobile-menu {
-  /* display: none; */
-  position: fixed;
-  top: 80px;
-  left: 0;
-  width: 100%;
-  height: calc(100vh - 80px);
-  background: rgba(9, 9, 9, 0.8); /* Semi-transparent black */
-  backdrop-filter: blur(10px);
-
-  z-index: 0;
-  padding: 1rem;
-  transition: 0.5s;
-  transform: translateX(-100%);
-
-  &.active {
-    /* display: block; */
-    transform: translateX(0);
-  }
-
-  @include lg {
-    padding: 1rem 4rem;
-  }
+  transform: translate(0, -9px) rotate(45deg);
 }

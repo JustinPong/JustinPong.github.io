@@ -59,7 +59,7 @@ const LandingSection = () => {
       <div className="container m-auto px-5 md:px-16 lg:px-32">
         <div className="flex flex-col-reverse lg:flex-row gap-10 2xl:gap-36">
           <div className="w-full md:max-w-[1000px] m-auto">
-            <div class="text-primary font-mono">Hi, my name is</div>
+            <div className="text-primary font-mono">Hi, my name is</div>
             {/* text-4xl xl:text-7xl */}
             <h1 className="big-heading font-bold mt-4 xl:mt-6 leading-none font-sans text-white">
               Justin Pong.

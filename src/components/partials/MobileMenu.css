@@ -1,0 +1,24 @@
+.mobile-menu {
+  /* display: none; */
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 80px);
+  background: rgba(9, 9, 9, 0.8); /* Semi-transparent black */
+  backdrop-filter: blur(10px);
+
+  z-index: 0;
+  padding: 1rem;
+  transition: 0.5s;
+  transform: translateX(-100%);
+
+  &.active {
+    /* display: block; */
+    transform: translateX(0);
+  }
+
+  @screen lg {
+    padding: 1rem 4rem;
+  }
+}
