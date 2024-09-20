@@ -1,5 +1,5 @@
 import React from "react";
-import "./email.css";
+import "./Email.css";
 
 const Email = () => {
   return (
