@@ -1,15 +1,14 @@
 import React from "react";
+import "./PrimaryButton.css";
 
 const PrimaryButton = ({ className, text = "hi" }) => {
   const baseClasses = "group";
   return (
     <button
       data-component="primary-button"
-      className={`${baseClasses} ${className}`}
+      className={`primary-button ${baseClasses} ${className}`}
     >
-      <div className="bg-dark text-primary font-mono border-primary border transform group-hover:translate-x-[-5px] group-hover:translate-y-[-5px] group-hover:shadow-[4px_4px_0_0_var(--primary)] px-6 py-3 rounded-md transition-all duration-250 ease-[cubic-bezier(0.645,0.045,0.355,1)]">
-        {text}
-      </div>
+      <div className="lift-up-button">{text}</div>
     </button>
   );
 };

@@ -1,0 +1,14 @@
+.lift-up-button {
+  background-color: var(--dark);
+  color: var(--primary);
+  font-family: var(--font-mono);
+  border: 1px solid var(--primary);
+  padding: 0.75rem 1.5rem;
+  transition: 300ms;
+  border-radius: 0.375rem;
+}
+
+.primary-button:hover .lift-up-button {
+  transform: translate(-5px, -5px);
+  box-shadow: 4px 4px 0 0 var(--primary);
+}
