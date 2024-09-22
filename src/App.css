@@ -13,6 +13,35 @@ body {
   scroll-behavior: smooth;
 }
 
+.underline-link {
+  color: var(--primary, #007bff);
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.underline-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: currentColor;
+  left: 0;
+  bottom: 2px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  transform-origin: bottom left;
+}
+
+.underline-link:hover::after {
+  transform: scaleX(1);
+}
+
+::selection {
+  background-color: #303030; /* Highlight color */
+  color: var(--white);
+}
+
 .App {
   /* text-align: center; */
   min-height: 100vh;

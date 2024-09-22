@@ -109,16 +109,25 @@ const AboutSection = () => {
           <PrimaryTitle index="01" title="About Me" />
           <div className="font-sans text-gray">
             Hi, I'm Justin. I love creating things for the web. My journey in
-            web development began in 2021 when I built a personal website on
-            WIX. This sparked my curiosity to learn how to develop websites
+            web development began in 2021 when I built a personal website on{" "}
+            <a
+              className="underline-link"
+              href="https://www.wix.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Wix
+            </a>
+            . This sparked my curiosity to learn how to develop websites
             manually. Although my university major wasn't in computer science,
             my passion led me to join a web development bootcamp, which landed
             me my first job in the field.
             <br />
             <br />
-            Today, with several years of experience, I am also pursuing a
-            part-time degree in computing to deepen my expertise and fuel my
-            passion for programming.
+            Fast-forward to today, with several years of experience, I am also
+            pursuing a part-time degree in computing to deepen my expertise and
+            fuel my passion for programming. I am committed to continuously
+            expanding my knowledge in various areas.
             <br />
             <br />
             Here are the technologies I am most familiar with:
@@ -136,6 +145,7 @@ const AboutSection = () => {
                 loop={true}
                 lazy={true}
                 loopedSlides={14}
+                allowTouchMove={false}
                 breakpoints={{
                   spaceBetween: 20,
                   1024: {
