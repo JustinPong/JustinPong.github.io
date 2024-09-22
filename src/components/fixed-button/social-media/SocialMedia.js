@@ -1,9 +1,9 @@
 import React from "react";
-import "./Contact.css";
+import "./SocialMedia.css";
 import { VscGithubAlt } from "react-icons/vsc";
 import { FiLinkedin } from "react-icons/fi";
 
-const Contact = () => {
+const SocialMedia = () => {
   const contacts = [
     {
       link: "https://github.com/JustinPong",
@@ -31,4 +31,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default SocialMedia;

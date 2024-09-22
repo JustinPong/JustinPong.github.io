@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from "typed.js";
-import PrimaryButton from "../button/PrimaryButton";
+import PrimaryButton from "../../button/PrimaryButton";
 import "./LandingSection.css";
 
 const LandingSection = () => {
@@ -51,11 +51,7 @@ const LandingSection = () => {
   }, []);
 
   return (
-    <section
-      className="min-h-[100vh] flex"
-      data-component="home-page"
-      id="home"
-    >
+    <section className="min-h-screen flex" data-component="home-page" id="home">
       <div className="container m-auto px-5 md:px-32">
         <div className="flex flex-col-reverse lg:flex-row gap-10 2xl:gap-36">
           <div className="w-full md:max-w-[1000px] m-auto">
@@ -67,7 +63,7 @@ const LandingSection = () => {
             <h3 className="text-xl lg:text-4xl font-bold mt-4 mb-6 xl:mb-10 font-sans">
               I'm a <span className="text-primary" ref={el} />
             </h3>
-            <p className="text-base xl:text-lg max-w-[560px] text-white">
+            <p className="text-base xl:text-md max-w-[560px] text-gray font-sans">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do,
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim, ad minim veniam, quis nostrud exercitation ullamco laboris
