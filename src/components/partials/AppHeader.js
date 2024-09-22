@@ -7,14 +7,10 @@ const AppHeader = () => {
         <div className="px-6 lg:px-14 w-full flex justify-between items-center">
           <a
             href="#home"
-            className="flex gap-1 w-auto transform transition-transform duration-300 hover:scale-105 text-2xl"
+            className="flex gap-1 w-auto transform transition-transform duration-300 text-2xl"
           >
-            <span className="text-white font-sans font-semibold">
-              {"<"}Justin
-            </span>
-            <span className="text-primary font-sans font-semibold">
-              Pong {"/>"}
-            </span>
+            <span className="text-white font-sans font-semibold">Justin</span>
+            <span className="text-primary font-sans font-semibold">Pong</span>
           </a>
           <NavBar />
         </div>

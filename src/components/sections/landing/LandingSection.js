@@ -63,7 +63,7 @@ const LandingSection = () => {
             <h3 className="text-xl lg:text-4xl font-bold mt-4 mb-6 xl:mb-10 font-sans">
               I'm a <span className="text-primary" ref={el} />
             </h3>
-            <p className="text-base xl:text-md max-w-[560px] text-gray font-sans">
+            <p className="text-base xl:text-lg max-w-[560px] text-gray font-serif">
               I'm a Front-End Developer located in Hong Kong. I have a serious
               passion for web developing, designing and programming. Also hungry
               for challenges and yearning to put my brains to the test.

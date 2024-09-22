@@ -103,11 +103,11 @@ const AboutSection = () => {
   ];
 
   return (
-    <section className="min-h-screen flex" id="about">
+    <section className="py-14 md:py-20 lg:py-32 flex" id="about">
       <div className="container m-auto px-5 md:px-32 relative">
         <div className="max-w-[900px] m-auto">
           <PrimaryTitle index="01" title="About Me" />
-          <div className="font-sans text-gray">
+          <div className="font-serif text-lg text-gray">
             Hi, I'm Justin. I love creating things for the web. My journey in
             web development began in 2021 when I built a personal website on{" "}
             <a
@@ -131,49 +131,49 @@ const AboutSection = () => {
             <br />
             <br />
             Here are the technologies I am most familiar with:
-            <div className="relative mt-10">
-              <div className="fade-overlay left-0"></div>
-              <Swiper
-                className="swiper about-swiper"
-                slidesPerView="auto"
-                modules={[Autoplay]}
-                autoplay={{
-                  delay: 0,
-                }}
-                touchEventsTarget="container"
-                speed={2000}
-                loop={true}
-                lazy={true}
-                loopedSlides={14}
-                allowTouchMove={false}
-                breakpoints={{
-                  spaceBetween: 20,
-                  1024: {
-                    spaceBetween: 60,
-                  },
-                }}
-              >
-                {technologies.map((tech, index) => (
-                  <SwiperSlide
-                    key={index}
-                    className="group max-w-min text-center"
-                    style={{
-                      width: "auto",
-                      padding: "10px",
-                      display: "flex",
-                      flexDirection: "column",
-                      alignItems: "center",
-                    }}
-                  >
-                    {tech.icon}
-                    <span className="mt-1 text-xs lg:text-base text-white pointer-events-none duration-300 opacity-100 lg:opacity-0 group-hover:opacity-100">
-                      {tech.name}
-                    </span>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-              <div className="fade-overlay right-0"></div>
-            </div>
+          </div>
+          <div className="relative mt-10">
+            <div className="fade-overlay left-0"></div>
+            <Swiper
+              className="swiper about-swiper"
+              slidesPerView="auto"
+              modules={[Autoplay]}
+              autoplay={{
+                delay: 0,
+              }}
+              touchEventsTarget="container"
+              speed={2000}
+              loop={true}
+              lazy={true}
+              loopedSlides={14}
+              allowTouchMove={false}
+              breakpoints={{
+                spaceBetween: 20,
+                1024: {
+                  spaceBetween: 60,
+                },
+              }}
+            >
+              {technologies.map((tech, index) => (
+                <SwiperSlide
+                  key={index}
+                  className="group max-w-min text-center"
+                  style={{
+                    width: "auto",
+                    padding: "10px",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                  }}
+                >
+                  {tech.icon}
+                  <span className="mt-1 text-xs lg:text-base text-white pointer-events-none duration-300 opacity-100 lg:opacity-0 group-hover:opacity-100">
+                    {tech.name}
+                  </span>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+            <div className="fade-overlay right-0"></div>
           </div>
         </div>
       </div>
