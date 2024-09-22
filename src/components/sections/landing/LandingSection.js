@@ -64,10 +64,9 @@ const LandingSection = () => {
               I'm a <span className="text-primary" ref={el} />
             </h3>
             <p className="text-base xl:text-md max-w-[560px] text-gray font-sans">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do,
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim, ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut
+              I'm a Front-End Developer located in Hong Kong. I have a serious
+              passion for web developing, designing and programming. Also hungry
+              for challenges and yearning to put my brains to the test.
             </p>
             <PrimaryButton text="Get In Touch!" className="mt-[50px]" />
           </div>
