@@ -3,6 +3,7 @@
   --white: #e0def4;
   --dark: #090909;
   --grey: #808080;
+  --light-grey: #b0b0b0;
   --font-sans: "Montserrat", "system-ui", "sans-serif";
   --font-serif: "Titillium Web", "Georgia", "serif";
   --font-mono: "Fira Code";
@@ -11,6 +12,7 @@
 html,
 body {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 .underline-link {
