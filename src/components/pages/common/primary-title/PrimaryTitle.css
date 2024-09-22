@@ -1,0 +1,29 @@
+.primary-title {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  margin: 0.625rem 0 2.5rem;
+  width: 100%;
+  font-family: var(--font-sans);
+  font-size: clamp(1.5rem, 5vw, 1.75rem);
+  white-space: nowrap;
+}
+
+.number {
+  color: var(--primary);
+  font-family: var(--font-mono);
+  margin-right: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.heading {
+  font-weight: 700;
+}
+
+.title-divider-line {
+  background-color: #303030;
+  height: 1px;
+  width: 300px;
+  margin-left: 1.25rem;
+}
