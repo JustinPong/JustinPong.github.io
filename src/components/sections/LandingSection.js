@@ -56,7 +56,7 @@ const LandingSection = () => {
       data-component="home-page"
       id="home"
     >
-      <div className="container m-auto px-5 md:px-16 lg:px-32">
+      <div className="container m-auto px-5 md:px-32">
         <div className="flex flex-col-reverse lg:flex-row gap-10 2xl:gap-36">
           <div className="w-full md:max-w-[1000px] m-auto">
             <div className="text-primary font-mono">Hi, my name is</div>
