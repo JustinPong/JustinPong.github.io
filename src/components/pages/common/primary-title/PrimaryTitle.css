@@ -6,7 +6,7 @@
   margin: 0.625rem 0 2.5rem;
   width: 100%;
   font-family: var(--font-sans);
-  font-size: clamp(1.5rem, 5vw, 1.75rem);
+  font-size: clamp(1.25rem, 5vw, 1.75rem);
   white-space: nowrap;
 }
 
@@ -14,7 +14,7 @@
   color: var(--primary);
   font-family: var(--font-mono);
   margin-right: 0.5rem;
-  font-size: 1.25rem;
+  font-size: clamp(16px, 3vw, 20px);
 }
 
 .heading {

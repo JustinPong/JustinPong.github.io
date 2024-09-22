@@ -1,0 +1,20 @@
+.job-detail-item {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 1.25rem;
+  color: var(--gray);
+}
+
+.job-detail-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px; /* Adjust this value to move the triangle down */
+  transform: translateY(0);
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid var(--primary);
+}
