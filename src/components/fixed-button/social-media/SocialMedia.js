@@ -7,11 +7,11 @@ const SocialMedia = () => {
   const contacts = [
     {
       link: "https://github.com/JustinPong",
-      icon: <VscGithubAlt className="icon" />,
+      icon: <VscGithubAlt className="icon" size={20} />,
     },
     {
       link: "https://www.linkedin.com/in/justinpong/",
-      icon: <FiLinkedin className="icon" />,
+      icon: <FiLinkedin className="icon" size={20} />,
     },
   ];
 
