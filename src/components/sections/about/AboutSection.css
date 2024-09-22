@@ -1,0 +1,28 @@
+.about-swiper .swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+.tech-icon {
+  width: 40px;
+  height: 40px;
+
+  @screen lg {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.fade-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 80px; /* Increase width for smoother transition */
+  background: linear-gradient(to right, #090909 0%, #09090900 100%);
+  z-index: 10;
+  pointer-events: none;
+}
+
+.fade-overlay.right-0 {
+  right: 0;
+  background: linear-gradient(to left, #090909 0%, #09090900 100%);
+}
