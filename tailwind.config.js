@@ -7,6 +7,7 @@ module.exports = {
         primary: "#06D99E",
         dark: "#090909",
         white: "#e0def4",
+        gray: "#808080",
       },
       fontFamily: {
         sans: ["Montserrat", "system-ui", "sans-serif"],

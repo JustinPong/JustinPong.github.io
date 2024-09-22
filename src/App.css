@@ -1,6 +1,16 @@
 :root {
   --primary: #06d99e;
   --white: #e0def4;
+  --dark: #090909;
+  --grey: #808080;
+  --font-sans: "Montserrat", "system-ui", "sans-serif";
+  --font-serif: "Titillium Web", "Georgia", "serif";
+  --font-mono: "Fira Code";
+}
+
+html,
+body {
+  scroll-behavior: smooth;
 }
 
 .App {
