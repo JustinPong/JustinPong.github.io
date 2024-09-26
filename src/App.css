@@ -13,7 +13,14 @@
 html,
 body {
   scroll-behavior: smooth;
-  /* scroll-padding-top: 80px; */
+  scroll-padding-top: 80px;
+}
+
+@screen lg {
+  html,
+  body {
+    scroll-padding-top: 0;
+  }
 }
 
 .underline-link {

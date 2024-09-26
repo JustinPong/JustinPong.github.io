@@ -38,7 +38,7 @@ const NavBar = () => {
         <div className="bar2"></div>
         <div className="bar3"></div>
       </div>
-      <MobileMenu isActive={menuOpen} />
+      <MobileMenu isActive={menuOpen} closeMenu={() => setMenuOpen(false)} />
     </div>
   );
 };

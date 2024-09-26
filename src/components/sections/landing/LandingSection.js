@@ -68,7 +68,11 @@ const LandingSection = () => {
               passion for web developing, designing and programming. Also hungry
               for challenges and yearning to put my brains to the test.
             </p>
-            <PrimaryButton text="Get In Touch!" className="mt-[50px]" />
+            <PrimaryButton
+              href="mailto:justinpong0416@gmail.com"
+              text="Get In Touch!"
+              className="mt-[50px]"
+            />
           </div>
           {/* <div className="w-full max-w-[600px] lg:w-2/5">
             <img src="/images/home-logo.png" alt="Home Logo" />
