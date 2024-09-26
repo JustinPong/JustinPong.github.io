@@ -3,6 +3,7 @@ import LandingSection from "../../sections/landing/LandingSection";
 import AboutSection from "../../sections/about/AboutSection";
 import ExperienceSection from "../../sections/experience/ExperienceSection";
 import ProjectSection from "../../sections/project/ProjectSection";
+import ContactSection from "../../sections/contact/ContactSection";
 
 const Homepage = () => {
   return (
@@ -10,7 +11,8 @@ const Homepage = () => {
       <LandingSection />
       <AboutSection />
       <ExperienceSection />
-      <ProjectSection/>
+      <ProjectSection />
+      <ContactSection />
     </div>
   );
 };

@@ -6,7 +6,7 @@ const AppHeader = () => {
       <div className="h-[80px] flex justify-between items-center">
         <div className="px-6 lg:px-14 w-full flex justify-between items-center">
           <a
-            href="#home"
+            href="/"
             className="flex gap-1 w-auto transform transition-transform duration-300 text-2xl"
           >
             <span className="text-white font-sans font-semibold">Justin</span>
