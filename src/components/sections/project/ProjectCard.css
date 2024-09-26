@@ -1,0 +1,22 @@
+.card {
+  font-family: var(--font-mono);
+  transition: 300ms;
+  border-radius: 0.375rem;
+  height: auto;
+  position: relative;
+}
+
+.lift-up {
+  height: 100%;
+  position: relative;
+  transition: transform 300ms ease;
+}
+
+.arrow-container {
+  position: relative;
+  display: inline-block;
+}
+
+.card:hover .lift-up {
+  transform: translateY(-5px); /* Lifts the entire card */
+}

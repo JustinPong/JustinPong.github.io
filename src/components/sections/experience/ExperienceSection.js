@@ -14,7 +14,7 @@ const ExperienceSection = () => {
         "Highly skilled in front-end development with expertise in creating visually engaging websites with dynamic animations and effects",
         "Experienced in developing back-end websites with CMS integration, utilizing technologies like MySQL, PHP, Laravel, Laravel Nova, and Strapi",
         "led a large-scale project as a project lead abd proven ability to guide and mentor junior developers",
-        "Experience in building APIs using Node.js, PHP, or Express.js.",
+        "Experience in building APIs using Node.js, PHP, or Express.js",
       ],
       skillSets: [
         "JavaScript",
