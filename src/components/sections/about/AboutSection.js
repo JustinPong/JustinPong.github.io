@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
@@ -21,6 +21,8 @@ import PrimaryTitle from "../../pages/common/primary-title/PrimaryTitle";
 import "./AboutSection.css";
 
 const AboutSection = () => {
+  const swiperRef = useRef(null);
+
   const technologies = [
     {
       name: "HTML",
@@ -102,6 +104,27 @@ const AboutSection = () => {
     },
   ];
 
+  useEffect(() => {
+    const debounce = (func, delay) => {
+      let timeout;
+      return (...args) => {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func(...args), delay);
+      };
+    };
+
+    const handleResize = debounce(() => {
+      if (swiperRef.current) {
+        swiperRef.current.swiper.update();
+      }
+    }, 300);
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <section className="py-14 md:py-20 lg:py-32 flex" id="about">
       <div className="container m-auto px-5 md:px-32 relative">
@@ -135,6 +158,7 @@ const AboutSection = () => {
           <div className="relative mt-10">
             <div className="fade-overlay left-0"></div>
             <Swiper
+              ref={swiperRef}
               className="swiper about-swiper"
               slidesPerView="auto"
               modules={[Autoplay]}
